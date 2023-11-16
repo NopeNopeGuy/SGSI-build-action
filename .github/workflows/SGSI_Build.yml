@@ -1,9 +1,7 @@
 name: SGSI_Build
 
 on:
-  watch:
-    types: [started]
-
+  workflow_dispatch:
 jobs:
   build:
     runs-on: buildjet-32vcpu-ubuntu-2204
