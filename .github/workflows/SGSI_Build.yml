@@ -28,7 +28,7 @@ jobs:
           
       - name: Initializing Environment
         run: |
-          sudo apt-get install -y git wget git zip unzip curl axel
+          sudo apt-get install -y git wget git zip unzip curl axel --fix-missing
 
       - name: Cloning SGSI source code
         run: |
